@@ -1,0 +1,7 @@
+**QUESTION**
+A. Creating Abbreviations
+The Beaver was given a set of words S, which initially contained n words. Then he performed the following operation m times:
+The Beaver forms a sequence of one or more words from the set S. The same word may appear in the sequence several times. An abbreviation∗ is formed from the resulting phrase.
+Then the Beaver adds the resulting abbreviation to S and can now use it in subsequent operations as an ordinary word.
+You are given the n initial words that were in the set S, and the set of abbreviations that the Beaver formed. Determine whether the Beaver made a mistake and whether all these abbreviations could have appeared as a result of the operation described above. Note that the abbreviations did not necessarily appear in the same order in which they are given to you.
+∗The abbreviation of a sequence is the word produced by the first letters of the words in the sequence. For example, the sequence birch OAK birch redwood produces the abbreviation BOBR.
