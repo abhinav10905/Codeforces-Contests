@@ -37,3 +37,4 @@ for i in range (0,t):
 **APPROACH**
 Time Complexity :- O(tlogn)
 Space Complexity :- O(1)
+Approach :- Looping, Conditional Statements
