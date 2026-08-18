@@ -14,3 +14,22 @@ The third line of the test case contains m integers b1,b2,…bm — the heights 
 **OUTPUT**
 For each test case, output a single number — the number of the giant who will win.
 
+**CODE**
+for t in range (int(input())):
+    n,m=map(int,input().split())
+    a=list(map(int,input().split()))
+    b=list(map(int,input().split()))
+    c=0
+    for i in range (0,n-1):
+        c+=(a[i]-a[i+1])
+        c+=1
+    c+=a[-1]
+    d=0
+    for i in range (0,m-1):
+        d+=(b[i]-b[i+1])
+        d+=1
+    d+=b[m-1]
+    if 2*d-1<2*c:
+        print("1")
+    else:
+        print("2")
