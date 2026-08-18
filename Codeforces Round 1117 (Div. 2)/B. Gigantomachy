@@ -33,3 +33,8 @@ for t in range (int(input())):
         print("1")
     else:
         print("2")
+
+**APPROACH**
+Time :- O(t(n+m))
+Space :- O(n+m) per test case
+Approach :- Math
