@@ -14,3 +14,7 @@ Each of the next n lines contains one string wi — an ordinary word (1≤|wi|�
 Each of the next m lines contains one string ai — an abbreviation formed by Bobr (1≤|ai|≤20).
 All ordinary words consist of lowercase English letters, and all abbreviations consist of uppercase English letters. In each test case, all strings w1,w2,…,wn,a1,a2,…,am are pairwise distinct.
 The total length of all strings over all test cases does not exceed 50000.
+
+**OUTPUT**
+For each test case, print "YES" if there exists a suitable order in which the given abbreviations could have appeared, and "NO" otherwise.
+You may print each letter in any case (lowercase or uppercase). For example, the strings "yEs", "yes", "Yes", and "YES" will be accepted as a positive answer.
