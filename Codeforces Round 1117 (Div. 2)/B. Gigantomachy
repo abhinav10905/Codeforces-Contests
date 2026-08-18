@@ -10,3 +10,7 @@ Each test contains multiple test cases. The first line contains the number of te
 The first line of each test case contains two integers n and m — the number of mountains in the first and second giant's range, respectively (1≤n,m≤100).
 The second line of the test case contains n integers a1,a2,…an — the heights of the mountains of the first giant (1≤ai≤109; ai≥ai+1).
 The third line of the test case contains m integers b1,b2,…bm — the heights of the mountains of the second giant (1≤bi≤109; bi≥bi+1).
+
+**OUTPUT**
+For each test case, output a single number — the number of the giant who will win.
+
