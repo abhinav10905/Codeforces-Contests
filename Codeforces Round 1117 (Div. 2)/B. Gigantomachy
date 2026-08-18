@@ -1,0 +1,5 @@
+**QUESTION**
+B. Gigantomachy
+Two giants, Bea and Ver, are playing a game. Each giant has his own mountain range. You have already measured all these mountains and now know that the heights of the mountains in Bea's range are a1,a2,…an, and in Ver's range are b1,b2,…bm, with the mountains numbered from left to right for Bea and from right to left for Ver. At the beginning of the game, the giants stand on the mountain numbered 1. Thus, they face each other and see all their mountains and all the mountains of their opponent. It turns out that Bea and Ver are connoisseurs of beauty, so the mountains in their ranges are arranged in non-increasing order, specifically ai≥ai+1 for 1≤i<n and bi≥bi+1 for 1≤i<m.
+In the illustration below, there is an example of the initial arrangement, where Bea has the range a1,a2,a3=3,2,1, and Ver has the range b1,b2=4,2. For simplicity, the mountains are depicted as rectangles, with Bea's mountains on the left and Ver's on the right. For your good mood, the giants Bea and Ver are represented as beavers.
+
