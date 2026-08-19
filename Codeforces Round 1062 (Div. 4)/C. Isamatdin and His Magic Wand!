@@ -41,4 +41,7 @@ for i in range (0,t):
             print(l[j],end=" ")
         print(l[n-1])
         
-        
+**APPROACH**
+Time Complexity :- O(t*n)
+Space Complexity :- O(n)
+Approach :- Sorting        
