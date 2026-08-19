@@ -7,3 +7,17 @@ Determine whether it is possible to form a square∗ using the given sticks.
 **INPUT**
 The first line contains a single integer t (1≤t≤104) — the number of test cases.
 The only line of each test case contains four integers a, b, c, and d (1≤a,b,c,d≤10) — the lengths of the sticks.
+
+**OUTPUT**
+For each test case, print "YES" if it is possible to form a square using the given sticks, and "NO" otherwise.
+You may print each letter in any case (uppercase or lowercase). For example, the strings "yEs", "yes", "Yes", and "YES" will all be recognized as a positive answer.
+
+**CODE**
+t=int(input())
+for i in range (0,t):
+    a,b,c,d=map(int,input().split())
+    if a==b==c==d:
+        print("YES")
+    else:
+        print("NO")
+
