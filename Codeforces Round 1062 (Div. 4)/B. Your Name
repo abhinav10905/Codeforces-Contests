@@ -1,0 +1,4 @@
+**QUESTION**
+B. Your Name
+khba is writing his girlfriend's name. He has n cubes, each with one lowercase Latin letter written on it. They are arranged in a row, forming a string s. His girlfriend's name is also a string t, consisting of n lowercase Latin letters.
+To prove his love, he must check whether it is possible to rearrange the letters of string s so that it becomes her name t.
