@@ -10,3 +10,7 @@ Each test contains multiple test cases. The first line contains the number of te
 The first line of each test case contains one integer n (1≤n≤100).
 The second line of each test case contains n integers a1,a2,…,an (−109≤ai≤109).
 The third line of each test case contains one integer x (−109≤x≤109).
+
+**OUTPUT**
+For each test case, output "YES" (without quotes) if the final number can be exactly equal to x, and "NO" otherwise.
+You can output "YES" and "NO" in any case (for example, strings "yES", "yes" and "Yes" will be recognized as a positive response).
