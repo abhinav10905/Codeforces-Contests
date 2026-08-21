@@ -31,3 +31,8 @@ for i in range (0,t):
         print("yes")
     else:
         print("no")
+
+**APPROACH**
+Time :- O(t(len(s))
+Space :- O(1) per test case
+Approach :- Counting
