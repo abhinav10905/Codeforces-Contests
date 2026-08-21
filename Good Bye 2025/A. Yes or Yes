@@ -9,3 +9,8 @@ A single N if both si and si+1 are N.
 Note that after each operation, the length of s decreases by .
 Unfortunately, Fernando does not want you to combine "Yes OR Yes", as he has experienced trauma relating to a certain song.
 Determine whether it is possible to reduce s to a single character by repeatedly applying the operation above, without ever combining two Y's.
+
+**INPUT**
+Input
+Each test contains multiple test cases. The first line contains the number of test cases t (1≤t≤500). The description of the test cases follows.
+The only line of each test case contains the string s (2≤|s|≤100). It is guaranteed that si=Y or N.
