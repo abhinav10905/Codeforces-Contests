@@ -43,3 +43,8 @@ for i in range (0,t):
                     count+=1
                     break
     print(count)
+
+**APPROACH**
+Time :- O(t(n**2))
+Space :- O(n) per test case
+Approach :- Counting
