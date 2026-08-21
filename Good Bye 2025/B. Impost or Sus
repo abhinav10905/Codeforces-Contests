@@ -14,3 +14,32 @@ It is guaranteed that the sum of |r| over all test cases does not exceed 2⋅105
 
 **OUTPUT**
 For each test case, output a single integer — the minimum number of operations needed to make r suspicious.
+
+**CODE**
+t=int(input())
+for i in range (0,t):
+    s=input()
+    r=list(s)
+    count=0
+    for j in range (0,len(r)):
+        if r[j]=='u':
+            for k in range (0,len(r)):
+                if (j-k)>=0 and (j+k)<len(r):
+                    if r[j-k]=='s' and r[j+k]=='u':
+                        r[j+k]='s'
+                        count+=1
+                        break
+                    elif r[j+k]=='s' and r[j-k]=='u':
+                        r[j-k]='s'
+                        count+=1
+                        break
+                    elif r[j-k]=='s' and r[j+k]=='s':
+                        break
+                    else:
+                        pass
+                    
+                else:
+                    r[j]='s'
+                    count+=1
+                    break
+    print(count)
