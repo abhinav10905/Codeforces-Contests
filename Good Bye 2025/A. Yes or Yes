@@ -18,3 +18,16 @@ The only line of each test case contains the string s (2≤|s|≤100). It is gua
 **OUTPUT**
 For each test case, print "YES" if the string can be reduced to a single character by repeatedly applying the described operation, and "NO" otherwise.
 You can output the answer in any case (upper or lower). For example, the strings "yEs", "yes", "Yes", and "YES" will be recognized as positive responses.
+
+**CODE**
+t=int(input())
+for i in range (0,t):
+    s=input()
+    count=0
+    for j in s:
+        if j=='Y':
+            count+=1
+    if count<=1:
+        print("yes")
+    else:
+        print("no")
