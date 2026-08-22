@@ -11,3 +11,36 @@ Each test case consists of one line containing two integers a and b (1≤a,b≤1
 
 **OUTPUT**
 For each test case, output one integer — the maximum possible number of layers in the cake.
+
+**CODE**
+t=int(input())
+for i in range (0,t):
+    a,b=map(int,input().split())
+    count1=0
+    ta=a
+    tb=b
+    count2=0
+    j=1
+    while (a-j)>=0 and (b-2*j)>=0:
+        
+        count1+=1
+        a-=j
+        
+        count1+=1
+        b-=2*j
+        j=j*4
+    if (a-j)>=0:
+        count1+=1
+    j=1
+    while tb-j>=0 and ta-2*j>=0:
+        
+        count2+=1
+        tb-=j
+        
+        count2+=1
+        ta-=2*j
+        j=j*4
+    if (tb-j)>=0:
+        count2+=1
+    z=max(count1,count2)
+    print(z)
