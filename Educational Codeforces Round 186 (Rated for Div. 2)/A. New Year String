@@ -13,3 +13,6 @@ The first line contains one integer t (1≤t≤104) — the number of test cases
 Each test case consists of two lines:
 the first line contains one integer n (4≤n≤20) — the number of characters in s;
 the second line contains s — a sequence of n characters 0, 2, 5, and/or 6.
+
+**OUTPUT**
+For each test case, output one integer — the minimum number of operations needed to make the string s a New Year string.
