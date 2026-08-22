@@ -44,3 +44,8 @@ for i in range (0,t):
         count2+=1
     z=max(count1,count2)
     print(z)
+
+**APPROACH**
+Time :- O(t(log(a)+log(b))
+Space :- O(1) per test case
+Approach :- Counting, Maximum Value
