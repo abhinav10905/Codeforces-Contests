@@ -8,3 +8,6 @@ Monocarp has a kilograms of white chocolate and b kilograms of dark chocolate. H
 **INPUT**
 The first line contains one integer t (1≤t≤104) — the number of test cases.
 Each test case consists of one line containing two integers a and b (1≤a,b≤106).
+
+**OUTPUT**
+For each test case, output one integer — the maximum possible number of layers in the cake.
