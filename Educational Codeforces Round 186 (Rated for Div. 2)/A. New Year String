@@ -7,3 +7,9 @@ For example, the strings 20252026, 21026, 20262026, 000 are New Year strings. Th
 You are given a string s. You can perform the following operation any number of times (possibly zero):
 choose a character in the string s and replace it with 0, 2, 5, or 6 (you can choose any one of these four characters).
 Calculate the minimum number of operations needed to make the string s a New Year string.
+
+**INPUT**
+The first line contains one integer t (1≤t≤104) — the number of test cases.
+Each test case consists of two lines:
+the first line contains one integer n (4≤n≤20) — the number of characters in s;
+the second line contains s — a sequence of n characters 0, 2, 5, and/or 6.
