@@ -29,3 +29,8 @@ for i in range (0,t):
             print("1")
         else:
             print("0")
+
+**APPROACH**
+Time :- O(t*n)
+Space :- O(1) per test case
+Approach :- String
