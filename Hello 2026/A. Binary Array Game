@@ -9,3 +9,5 @@ Each test contains multiple test cases. The first line contains the number of te
 The first line of each test case contains a positive integer n (3≤n≤100), denoting the length of the array a.
 The second line of each test case contains n integers a1,a2,…,an (0≤ai≤1).
 
+**OUTPUT**
+For each test case, output Alice if Alice wins, and Bob otherwise. You may output each character in any case. For example, the answers Alice, alice, ALICE, AliCe will all be interpreted the same.
