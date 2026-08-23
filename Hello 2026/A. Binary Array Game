@@ -11,3 +11,13 @@ The second line of each test case contains n integers a1,a2,…,an (0≤ai≤1).
 
 **OUTPUT**
 For each test case, output Alice if Alice wins, and Bob otherwise. You may output each character in any case. For example, the answers Alice, alice, ALICE, AliCe will all be interpreted the same.
+
+**CODE**
+t=int(input())
+for _ in range (0,t):
+    n=int(input())
+    a=list(map(int,input().split()))
+    if a[0]==1 or a[-1]==1:
+        print("alice")
+    else:
+        print("bob")
