@@ -8,3 +8,7 @@ For example, if he was given the array [1,2,3,5] and x=2, you can choose index 3
 Each test consists of several test cases. The first line contains a single integer t (1≤t≤1000) — the number of test cases. The following describes the test cases.
 The first line of each test case contains three integers n, s, x (1≤n,x≤10, 1≤s≤100).
 The second line of each test case contains n integers a1,a2,…an (1≤ai≤10) — the elements of the array gifted to DBMB.
+
+**OUTPUT**
+For each test case, output "YES" if the array can appeal to DBMB. Otherwise, output "NO".
+You can output each letter in any case (lowercase or uppercase). For example, the strings "yEs", "yes", "Yes", and "YES" will be accepted as a positive answer.
