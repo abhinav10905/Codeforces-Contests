@@ -4,3 +4,8 @@ Alice and Bob are playing a game on an array a of size n, containing only number
 In a player's turn, he or she chooses two integers l and r such that 1≤l<r≤|a| (here, |a| denotes the current length of a). Then, the subarray [al,al+1,…,ar] is replaced with a single number 1−min(al,al+1,…,ar). That is, if all numbers in the subarray are 1, then the subarray [al,al+1,…,ar] is removed, and the number 0 is inserted where the subarray was. Otherwise, the subarray [al,al+1,…,ar] is removed, and the number 1 is inserted where the subarray was.
 The game ends when there is exactly one number left in the array (where the player to go cannot make legal moves). Alice wins if the final number is 0. Otherwise, Bob wins. Please determine who wins this game with optimal play.
 
+**INPUT**
+Each test contains multiple test cases. The first line contains the number of test cases t (1≤t≤100). The description of the test cases follows.
+The first line of each test case contains a positive integer n (3≤n≤100), denoting the length of the array a.
+The second line of each test case contains n integers a1,a2,…,an (0≤ai≤1).
+
