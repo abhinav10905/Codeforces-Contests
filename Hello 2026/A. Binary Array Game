@@ -1,0 +1,6 @@
+**QUESTION**
+A. Binary Array Game
+Alice and Bob are playing a game on an array a of size n, containing only numbers 0 and 1. Alice moves first, with each player alternating turns.
+In a player's turn, he or she chooses two integers l and r such that 1≤l<r≤|a| (here, |a| denotes the current length of a). Then, the subarray [al,al+1,…,ar] is replaced with a single number 1−min(al,al+1,…,ar). That is, if all numbers in the subarray are 1, then the subarray [al,al+1,…,ar] is removed, and the number 0 is inserted where the subarray was. Otherwise, the subarray [al,al+1,…,ar] is removed, and the number 1 is inserted where the subarray was.
+The game ends when there is exactly one number left in the array (where the player to go cannot make legal moves). Alice wins if the final number is 0. Otherwise, Bob wins. Please determine who wins this game with optimal play.
+
