@@ -26,3 +26,8 @@ for t in range (int(input())):
         print(c)
     else:
         print("0")
+
+**APPROACH**
+Time :- O(t)
+Space :- O(1) per test case
+Approach :- Math
