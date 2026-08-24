@@ -41,3 +41,8 @@ for t in range (int(input())):
         print("YES")
     else:
         print("NO")
+
+**APPROACH**
+Time :- O(t*n)
+Space :- O(n) per test case
+Approach :- Array
