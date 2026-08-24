@@ -1,0 +1,5 @@
+**QUESTION**
+A. Friendly Numbers
+For an integer x, we call another integer y friendly if the following condition holds:
+y−d(y)=x, where d(y) is the sum of the digits of y.
+For a given integer x, determine how many friendly numbers it has.
