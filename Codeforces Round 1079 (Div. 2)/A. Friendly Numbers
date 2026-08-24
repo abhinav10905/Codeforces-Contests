@@ -3,3 +3,7 @@ A. Friendly Numbers
 For an integer x, we call another integer y friendly if the following condition holds:
 y−d(y)=x, where d(y) is the sum of the digits of y.
 For a given integer x, determine how many friendly numbers it has.
+
+**INPUT**
+Each test contains multiple test cases. The first line contains the number of test cases t (1≤t≤500). The description of the test cases follows.
+Each test case consists of a single line containing one integer x (1≤x≤109).
