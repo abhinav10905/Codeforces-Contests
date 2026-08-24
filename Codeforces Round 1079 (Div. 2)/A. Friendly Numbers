@@ -11,3 +11,18 @@ Each test case consists of a single line containing one integer x (1≤x≤109).
 **OUTPUT**
 For each test case, output one integer — the answer to the problem.
 
+**CODE**
+for t in range (int(input())):
+    x=int(input())
+    if x%9==0:
+        c=0
+        for i in range (x,x+100):
+            z=str(i)
+            y=0
+            for j in z:
+                y+=int(j)
+            if i-y==x:
+                c+=1
+        print(c)
+    else:
+        print("0")
