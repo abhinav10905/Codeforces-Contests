@@ -1,0 +1,10 @@
+**QUESSTION**
+C. Dice Roll Sequence
+Consider the following cube D where numbers x and 7−x lie on opposite sides:
+A sequence b of integers from 1 to 6 is called a dice roll sequence if it satisfies the following condition:
+All pairs of adjacent elements lie on adjacent∗ sides of the cube.
+For example, [1,4,2] is a dice roll sequence, while [3,4,6,3] is not because 3 and 4 are not on adjacent sides of the dice. Additionally, [2,2,4] is not a dice roll sequence because 2 and 2 are on the same (not adjacent) side of the dice.
+Given a sequence a of n integers from 1 to 6, you can perform the following operation any number of times (possibly zero).
+Select an index 1≤i≤n and an integer 1≤x≤6. Then, change the value of ai to x.
+Please determine the minimum number of operations required to make a a dice roll sequence.
+∗Two sides of the cube S and T are called adjacent if they share exactly one edge of the cube. Do note that this condition implies S≠T as well.
