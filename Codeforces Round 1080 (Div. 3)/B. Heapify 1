@@ -16,3 +16,25 @@ It is guaranteed that the sum of n over all test cases does not exceed 2⋅105.
 **OUTPUT**
 If a can be sorted in increasing order, output "YES" on a separate line. Otherwise, output "NO" on a separate line.
 You can output the answer in any case. For example, the strings "yEs", "yes", and "Yes" will also be recognized as positive responses.
+
+**CODE**
+for t in range(int(input())):
+    n = int(input())
+    a = [0] + list(map(int, input().split()))
+    p = True
+    for i in range(1, n + 1, 2):
+        indices = []
+        values = []
+        curr = i
+        while curr <= n:
+            indices.append(curr)
+            values.append(a[curr])
+            curr *= 2
+        if sorted(indices) != sorted(values):
+            p = False
+            break
+            
+    if p:
+        print("YES")
+    else:
+        print("NO")
