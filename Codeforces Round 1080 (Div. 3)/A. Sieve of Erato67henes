@@ -12,3 +12,12 @@ The second line of each test case contains n positive integers a1,a2,â€¦,an (1â‰
 **OUTPUT**
 If it is possible to select elements so that their product is 67, output "YES" on one line. Otherwise, output "NO" on one line.
 You can output the answer in any case. For example, the strings "yEs", "yes", and "Yes" will also be recognized as positive responses.
+
+**CODE**
+for t in range (int(input())):
+    n=int(input())
+    a=list(map(int,input().split()))
+    if 67 in a:
+        print("YES")
+    else:
+        print("NO")
