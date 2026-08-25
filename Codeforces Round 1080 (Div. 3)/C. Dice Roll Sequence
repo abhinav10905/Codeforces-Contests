@@ -34,3 +34,8 @@ for t in range (int(input())):
         else:
             i+=1
     print(c)
+
+**APPROACH**
+Time :- O(t*n)
+Space :- O(n) per test case
+Approach :- Array, DP, Greedy
