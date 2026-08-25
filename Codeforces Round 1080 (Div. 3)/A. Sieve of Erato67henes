@@ -1,0 +1,5 @@
+**QUESTION**
+A. Sieve of Erato67henes
+You are given n positive integers a1,a2,…,an.
+Please determine if it is possible to select any number of elements in a, so that their product is 67.
+Note that you may not select zero elements, as the product of zero elements is not defined in this problem.
