@@ -11,3 +11,13 @@ Each test case consists of a single line containing three integers n,m,d (1≤n,
 
 **OUTPUT**
 For each test case, print one integer — the minimum number of towers.
+
+**CODE**
+for t in range (int(input())):
+    n,m,d=map(int,input().split())
+    c=0
+    z=d//m
+    while n>0:
+        n=n-z-1
+        c+=1
+    print(c)
