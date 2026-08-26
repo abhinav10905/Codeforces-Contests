@@ -10,3 +10,17 @@ The only line of each test case contains a single integer x (1≤x≤1018).
 
 **OUTPUT**
 For each test case, print a single integer — the minimum number of moves (possibly zero) required to make the given number beautiful.
+
+**CODE**
+for t in range (int(input())):
+    x=list(input())
+    a=0
+    c=0
+    for i in x:
+        a+=int(i)
+    x[0]=str(int(x[0])-1)
+    while a>9:
+        a-=int(max(x))
+        c+=1
+        x.remove(max(x))
+    print(c)
