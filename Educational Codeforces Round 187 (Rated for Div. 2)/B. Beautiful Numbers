@@ -1,0 +1,5 @@
+**QUESTION**
+B. Beautiful Numbers
+Let's define F(x) as the sum of the digits of x. An integer x is considered beautiful if F(F(x))=F(x).
+You are given an integer x. In one move, you can choose any digit in the number and replace it with another. The resulting number cannot have leading zeros.
+Your task is to calculate the minimum number of moves (possibly zero) required to make the given number beautiful.
