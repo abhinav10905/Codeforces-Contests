@@ -7,3 +7,6 @@ Your task is to calculate the minimum number of moves (possibly zero) required t
 **INPUT**
 The first line contains a single integer t (1≤t≤104) — the number of test cases.
 The only line of each test case contains a single integer x (1≤x≤1018).
+
+**OUTPUT**
+For each test case, print a single integer — the minimum number of moves (possibly zero) required to make the given number beautiful.
