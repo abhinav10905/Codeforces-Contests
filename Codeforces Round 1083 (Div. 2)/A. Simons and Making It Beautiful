@@ -19,3 +19,19 @@ The second line contains n integers p1,p2,…,pn (1≤pi≤n, all pi-s are disti
 **OUTPUT**
 For each test case, print n integers q1,q2,…,qn — the permutation you found.
 If there are multiple possible permutations, you may output any.
+
+**CODE**
+for t in range (int(input())):
+    n=int(input())
+    a=list(map(int,input().split()))
+    l=[a[0]]
+    for i in range (1,n):
+        if i==max(l):
+            y=max(a)
+            z=a.index(max(a))
+            a[z]=a[i-1]
+            a[i-1]=y
+            break
+        else:
+            l.append(a[i])
+    print(*a)
