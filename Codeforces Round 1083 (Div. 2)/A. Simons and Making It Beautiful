@@ -15,3 +15,7 @@ Find a permutation q that can be obtained from p by performing the above operati
 Each test contains multiple test cases. The first line contains the number of test cases t (1≤t≤100). The description of the test cases follows.
 The first line contains an integer n (1≤n≤500) — the length of p.
 The second line contains n integers p1,p2,…,pn (1≤pi≤n, all pi-s are distinct) — the elements of p.
+
+**OUTPUT**
+For each test case, print n integers q1,q2,…,qn — the permutation you found.
+If there are multiple possible permutations, you may output any.
