@@ -1,0 +1,5 @@
+**QUESTION**
+B. Simons and Cakes for Success
+Simons has n friends and a huge amount of cakes. To divide the cakes fairly, you are asked to help him solve the following problem:
+Find the minimum positive integer k such that n is a divisor of kn.
+It can be proved that the answer always exists under the given constraints.
