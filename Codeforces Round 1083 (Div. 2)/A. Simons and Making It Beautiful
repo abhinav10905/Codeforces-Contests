@@ -35,3 +35,8 @@ for t in range (int(input())):
         else:
             l.append(a[i])
     print(*a)
+
+**APPROACH**
+Time :- O(t(n**2))
+Space :- O(n)
+Approach :- Array, Brute Force
