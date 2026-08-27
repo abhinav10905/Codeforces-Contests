@@ -31,3 +31,8 @@ for t in range (int(input())):
     if n>1:
         a*=n
     print(a)
+
+**APPROACH**
+Time :- O(t(√n))
+Space :- O(1) per test case
+Approach :- Math
