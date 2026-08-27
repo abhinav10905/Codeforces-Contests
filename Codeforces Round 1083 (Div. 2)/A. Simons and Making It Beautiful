@@ -38,5 +38,5 @@ for t in range (int(input())):
 
 **APPROACH**
 Time :- O(t(n**2))
-Space :- O(n)
+Space :- O(n) per test case
 Approach :- Array, Brute Force
