@@ -15,3 +15,19 @@ The only line of each test case contains a single integer n (2≤n≤109) — th
 
 **OUTPUT**
 For each test case, output a single integer — the minimum k you found.
+
+**CODE**
+for t in range (int(input())):
+    n=int(input())
+    c=2
+    a=1
+    while c*c<=n:
+        if n%c==0:
+            a*=c
+            n//=c
+            while n%c==0:
+                n//=c
+        c+=1
+    if n>1:
+        a*=n
+    print(a)
