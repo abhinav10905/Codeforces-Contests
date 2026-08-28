@@ -14,3 +14,13 @@ The second line of each test case contains n integers p1,p2,…,pn (1≤pi≤n).
 
 **OUTPUT**
 For each test case, output n numbers on a new line: the answer for i=1,2,…,n.
+
+**CODE**
+for t in range (int(input())):
+    n=int(input())
+    p=list(map(int,input().split()))
+    if n==1:
+        print("1")
+    else:
+        a=[2]*n
+        print(*a)
