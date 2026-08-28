@@ -24,3 +24,8 @@ for t in range (int(input())):
     else:
         a=[2]*n
         print(*a)
+
+**APPROACH**
+Time :- O(t)
+Space :- O(n) per test case
+Approach :- Array, Math
