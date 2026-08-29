@@ -25,3 +25,8 @@ for t in range (int(input())):
         a.extend(b)
         z+=2
     print(*a)
+
+**APPROACH**
+Time :- O(t*n)
+Space :- O(n) per test case
+Approach :- Array
