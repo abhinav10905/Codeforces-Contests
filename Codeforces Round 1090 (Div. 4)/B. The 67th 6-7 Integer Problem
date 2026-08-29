@@ -19,3 +19,8 @@ for t in range (int(input())):
         a[i]=a[i]*-1
     c=sum(a)
     print(c)
+
+**APPROACH**
+Time :- O(t(nlogn)
+Space :- O(n) per test case
+Approach :- Array, Sorting
