@@ -1,0 +1,6 @@
+**QUESTION**
+A. The 67th Integer Problem
+Welcome to the New World, O Esteemed Earthly Visitor. You've been summoned by Macaque, a primate with four legs, a god complex and a terminal addiction to the word "trivial". You are Undertaking a Journey of Great Importance. Such Incredible Importance. No Journey Will EVER be as IMPORTANT as this one (and nothing this narrator says will sound so distinctly... orange again). You are implored to cooperate with Macaque, for his wrath (and joblessness) are unending. There is no room for error or incompetence. Lousiness shall be met with the full force of the law.
+Macaque is given an integer x. Your task is to choose an integer y such that the value of min(x,y)∗ is maximized.
+If there are multiple valid y, you may output any of them.
+∗min(x,y) is defined as the minimum of integers x and y.
