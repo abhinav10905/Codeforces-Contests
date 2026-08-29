@@ -10,3 +10,12 @@ The first and only line of each test case contains 7 space-separated integers a1
 
 **OUTPUT**
 For each test case, output the maximum sum of a after negating 6 out of the 7 integers, on a new line.
+
+**CODE**
+for t in range (int(input())):
+    a=list(map(int,input().split()))
+    a.sort()
+    for i in range (0,6):
+        a[i]=a[i]*-1
+    c=sum(a)
+    print(c)
