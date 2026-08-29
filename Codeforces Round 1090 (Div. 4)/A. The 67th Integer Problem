@@ -10,5 +10,12 @@ Each test contains multiple test cases. The first line contains the number of te
 The only line of each test case contains a single integer x (−67≤x≤67).
 
 **OUTPUT**
-
 For each test case, output one integer y (−67≤y≤67) such that min(x,y) is maximized.
+
+**CODE**
+for t in range (int(input())):
+    x=int(input())
+    if x!=67:
+        print(x+1)
+    else:
+        print(x)
