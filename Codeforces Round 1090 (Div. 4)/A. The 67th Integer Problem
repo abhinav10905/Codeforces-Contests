@@ -19,3 +19,8 @@ for t in range (int(input())):
         print(x+1)
     else:
         print(x)
+
+**APPROACH**
+Time :- O(t)
+Space :- O(1) per test case
+Approach :- Brute Force
