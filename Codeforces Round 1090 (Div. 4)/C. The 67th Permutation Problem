@@ -11,3 +11,6 @@ More formally, you must construct a permutation p of length 3n such that ∑n−
 Each test contains multiple test cases. The first line contains the number of test cases t (1≤t≤104). The description of the test cases follows.
 The first and only line of each test case contains an integer n (1≤n≤105).
 It is guaranteed that the sum of 3n does not exceed 3⋅105 over all test cases.
+
+**OUTPUT**
+For each test case, output a permutation p such that the sum of the medians of the contiguous blocks is maximised. If there are multiple possible p, output any.
