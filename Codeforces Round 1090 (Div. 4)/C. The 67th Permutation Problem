@@ -14,3 +14,14 @@ It is guaranteed that the sum of 3n does not exceed 3⋅105 over all test cases.
 
 **OUTPUT**
 For each test case, output a permutation p such that the sum of the medians of the contiguous blocks is maximised. If there are multiple possible p, output any.
+
+**CODE**
+for t in range (int(input())):
+    n=int(input())
+    a=[1,n+1,n+2]
+    z=2
+    for i in range (2,n+1):
+        b=[i,n+z+1,n+z+2]
+        a.extend(b)
+        z+=2
+    print(*a)
