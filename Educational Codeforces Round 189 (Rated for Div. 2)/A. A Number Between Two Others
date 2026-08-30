@@ -10,3 +10,28 @@ Each test case consists of a single line containing two integers x and y (1≤x<
 
 **OUTPUT**
 For each test case, print the answer as follows: if the required number z exists, print YES; otherwise, print NO. You may print each letter in any case.
+
+**CODE**
+for t in range (int(input())):
+    x,y=map(int,input().split())
+    m="true"
+    i=1
+    while (x*i)<y:
+        if y%(x*i)!=0:
+            m="false"
+            break
+        i+=1
+    if m=="true":
+        print("NO")
+    else:
+        print("YES")
+    
+        
+            
+        
+        
+            
+    
+    
+    
+    
