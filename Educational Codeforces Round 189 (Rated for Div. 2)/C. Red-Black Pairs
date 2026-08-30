@@ -39,3 +39,8 @@ for t in range (int(input())):
     if i==n-1 and a[-1]!=b[-1]:
         c+=1
     print(c)
+
+**APPROACH**
+Time :- O(t*n)
+Space :- O(1) per test case
+Approach :- Brute Force, Array
