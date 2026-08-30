@@ -1,0 +1,6 @@
+**QUESTION**
+C. Red-Black Pairs
+There is a table of 2×n cells. Each cell of the table is colored either red or black. You want to repaint some cells of this table so that there exists at least one way to partition all cells into n pairs such that the following conditions hold:
+the cells in each pair have the same color;
+the cells in each pair share a side.
+What is the minimum number of cells that need to be repainted?
