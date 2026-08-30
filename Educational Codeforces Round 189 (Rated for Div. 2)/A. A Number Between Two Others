@@ -3,3 +3,7 @@ A. A Number Between Two Others
 You are given two integers x and y such that y>x and ymodx=0 (that is, y is divisible by x).
 Your task is to determine whether there exists an integer z such that
 z lies between x and y (that is, x<z<y);z is divisible by x (that is, zmodx=0);y is not divisible by z (that is, ymodz≠0).
+
+**INPUT**
+Each test contains multiple test cases. The first line contains the number of test cases t (1≤t≤104). The description of the test cases follows.
+Each test case consists of a single line containing two integers x and y (1≤x<y≤1018; ymodx=0).
