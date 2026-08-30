@@ -11,3 +11,9 @@ Each test contains multiple test cases. The first line contains the number of te
 Each test case consists of one line containing one string s (2≤|s|≤2⋅105). The string consists only of lowercase Latin letters "a" and/or "b".
 Additional constraints on the input:
 the sum of string lengths over all test cases does not exceed 2⋅105.
+
+**OUTPUT**
+For each test case, output one of the following:
+YES, if it is possible to obtain an alternating string from s;
+NO otherwise.
+You may output each letter in any case.
