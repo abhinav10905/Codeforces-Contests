@@ -25,7 +25,11 @@ for t in range (int(input())):
         print("NO")
     else:
         print("YES")
-    
+
+**APPROACH**
+Time :- O(t*(y/x))
+Space :- O(1) per test case
+Approach :- Math
         
             
         
