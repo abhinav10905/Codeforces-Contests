@@ -7,3 +7,6 @@ z lies between x and y (that is, x<z<y);z is divisible by x (that is, zmodx=0);y
 **INPUT**
 Each test contains multiple test cases. The first line contains the number of test cases t (1≤t≤104). The description of the test cases follows.
 Each test case consists of a single line containing two integers x and y (1≤x<y≤1018; ymodx=0).
+
+**OUTPUT**
+For each test case, print the answer as follows: if the required number z exists, print YES; otherwise, print NO. You may print each letter in any case.
