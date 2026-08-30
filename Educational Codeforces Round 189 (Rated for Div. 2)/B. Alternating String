@@ -17,3 +17,17 @@ For each test case, output one of the following:
 YES, if it is possible to obtain an alternating string from s;
 NO otherwise.
 You may output each letter in any case.
+
+**CODE**
+for t in range (int(input())):
+    s=input()
+    c=0
+    for i in range (1,len(s)):
+        if s[i]==s[i-1]:
+            c+=1
+        if c>2:
+            break
+    if c<=2:
+        print("YES")
+    else:
+        print("NO")
