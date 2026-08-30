@@ -1,0 +1,5 @@
+**QUESTION**
+A. A Number Between Two Others
+You are given two integers x and y such that y>x and ymodx=0 (that is, y is divisible by x).
+Your task is to determine whether there exists an integer z such that
+z lies between x and y (that is, x<z<y);z is divisible by x (that is, zmodx=0);y is not divisible by z (that is, ymodz≠0).
