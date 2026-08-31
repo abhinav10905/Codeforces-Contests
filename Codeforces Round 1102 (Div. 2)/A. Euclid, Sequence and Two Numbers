@@ -30,3 +30,8 @@ for t in range (int(input())):
         print(m)
     else:
         print(a[0],a[1])
+
+**APPROACH**
+Time :- O(t*(nlogn))
+Space :- O(n) per test case
+Approach :- Math, Sorting
