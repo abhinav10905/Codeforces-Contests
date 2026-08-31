@@ -12,6 +12,15 @@ Each test contains multiple test cases. The first line contains the number of te
 The only line of each test case contains a single integer n (1≤n≤1018).
 
 **OUTPUT**
-
 For each test case, if such a and b exist, output a and b on a separate line, separated by a space. Otherwise, output −1 on a separate line.
 If there are several beautiful pairs a,b, you may output any of them.
+
+**CODE**
+for t in range (int(input())):
+    n=int(input())
+    if n==10:
+        print("-1")
+    elif n%12==10:
+        print(22,n-22)
+    else:
+        print(n%12,n-n%12)
