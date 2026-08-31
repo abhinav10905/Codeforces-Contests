@@ -6,3 +6,7 @@ The number a is a palindrome.∗
 The number b is divisible by 12.
 You need to find a beautiful pair or report that it does not exist.
 ∗A number is called a palindrome if and only if it remains the same when its digits (in decimal notation) are written in reverse order. For example, the numbers 12321, 6776, 5, 0 are palindromes, while the numbers 123 and 69 — are not.
+
+**INPUT**
+Each test contains multiple test cases. The first line contains the number of test cases t (1≤t≤104). The description of the test cases follows.
+The only line of each test case contains a single integer n (1≤n≤1018).
