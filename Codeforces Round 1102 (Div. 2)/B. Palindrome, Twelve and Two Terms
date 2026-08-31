@@ -24,3 +24,8 @@ for t in range (int(input())):
         print(22,n-22)
     else:
         print(n%12,n-n%12)
+
+**APPROACH**
+Time :- O(t)
+Space :- O(1) per test case
+Approach :- Math
