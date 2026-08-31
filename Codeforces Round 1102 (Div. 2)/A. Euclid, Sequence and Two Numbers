@@ -14,3 +14,19 @@ The second line of each test case contains n integers b1,b2,…,bn (1≤bi≤109
 **OUTPUT**
 For each test case, if it is possible to permute the elements of sequence b so that there exists a suitable pair of positive integers x≥y, output x,y on a separate line. Otherwise, output −1 on a separate line.
 If there are several suitable pairs x,y, you may output any of them.
+
+**CODE**
+for t in range (int(input())):
+    n = int(input())
+    a=list(map(int,input().split()))
+    a.sort()
+    a=a[::-1]
+    m=0
+    for i in range (2,n):
+        if a[i-2]%a[i-1]!=a[i]:
+            m=-1
+            break
+    if m==-1:
+        print(m)
+    else:
+        print(a[0],a[1])
