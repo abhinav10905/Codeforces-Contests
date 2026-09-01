@@ -7,3 +7,9 @@ Arseniy can make an unlimited number of moves. In one move, he can choose an int
 For example, if s=10110 and k=2, then by choosing i=2, Arseniy inverts the characters at positions 2 and 4: [10110→11100]
 Arseniy wants to get the main prize — 1000000 tugriks. To do this, he needs to make the entire string s equal to zero.
 Help Arseniy determine whether he can get his prize, or if he will have to return to Omsk with nothing.
+
+**INPUT**
+The first line contains a single integer t (1≤t≤104) — the number of test cases.
+The first line of each test case contains two integers n and k (1≤k≤n≤2⋅105).
+The second line of each test case contains a binary string s of length n.
+It is guaranteed that the sum of n over all test cases does not exceed 2⋅105.
