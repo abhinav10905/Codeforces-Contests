@@ -1,0 +1,9 @@
+**QUESTION**
+B. Tatar TV Show
+During the holidays, Egor came to visit his friend Dabir in the city of Kazan. Out of boredom, Dabir and Egor came up with a new business idea: to make their own TV show.
+The format of the show is very simple: in each episode they invite a guest and play a game with them on a binary string.
+In today's episode, Egor and Dabir invited Arseniy (aka MAKAN) — the main celebrity of Omsk. For the game, they chose a binary string s of length n and an integer k.
+Arseniy can make an unlimited number of moves. In one move, he can choose an integer i (1≤i≤n−k) and invert the characters at positions i and i+k, that is, change 0 to 1 and 1 to 0.
+For example, if s=10110 and k=2, then by choosing i=2, Arseniy inverts the characters at positions 2 and 4: [10110→11100]
+Arseniy wants to get the main prize — 1000000 tugriks. To do this, he needs to make the entire string s equal to zero.
+Help Arseniy determine whether he can get his prize, or if he will have to return to Omsk with nothing.
