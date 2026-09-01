@@ -1,0 +1,5 @@
+**QUESTION**
+A. Games on the Train
+Dabir, Egor, and Arseniy just got on the train and decided to play a game. Dabir has a backpack with an infinite number of cubes. He built n towers from them, where the i-th tower has height hi cubes.
+Egor and Arseniy must choose an integer xi for each tower i and increase its height by xi exactly once. For example, if h = [1,3,2,2], x = [3,2,2,8], then after increasing h it will become [4,5,4,10]. Their goal is to make the heights of all towers equal.
+To make the game more interesting, Dabir wants to choose an integer k and add a restriction: each xi must satisfy 1≤xi≤k. Help him find the smallest k for which it is possible to finish the game.
