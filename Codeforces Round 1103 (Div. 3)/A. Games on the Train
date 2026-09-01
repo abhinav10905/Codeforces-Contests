@@ -9,3 +9,6 @@ The first line contains a single integer t (1≤t≤104) — the number of test 
 Then t test cases follow.
 The first line of each test case contains a single integer n (1≤n≤5).
 The second line contains n integers h1,h2,…,hn (1≤hi≤6).
+
+**OUTPUT**
+For each test case, output a single integer — the minimum value of k such that it is possible to make all towers have equal height.
