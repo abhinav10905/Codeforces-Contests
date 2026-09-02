@@ -27,3 +27,8 @@ for t in range (int(input())):
             a[i]=a[i+1]
             a[i+1]=a[i+1]+temp
     print(a[-1])
+
+**APPROACH**
+Time :- O(t*n)
+Space :- O(1) per test case
+Approach :- Math
