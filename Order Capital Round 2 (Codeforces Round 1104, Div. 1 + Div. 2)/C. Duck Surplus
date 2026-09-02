@@ -7,3 +7,9 @@ Formally, choose an index i such that 1≤i<n and ai>ai+1. Then replace the adja
 For example, if two adjacent piles contain 7 and 3 rubber ducks, then after the operation they contain 3 and 10 rubber ducks.
 Ja may choose any index satisfying the condition above at each step. It can be shown that, regardless of his choices, the process eventually ends with the sequence sorted in nondecreasing order.
 Ja wants the largest pile at the end of the process to contain as few rubber ducks as possible. Determine the minimum possible value of the largest pile.
+
+**INPUT**
+Each test contains multiple test cases. The first line contains the number of test cases t (1≤t≤104). The description of the test cases follows.
+The first line of each test case contains n (1≤n≤2⋅105) — the number of piles.
+The second line of each test case contains n integers a1,a2,…,an (1≤ai≤109) — the number of ducks in each pile.
+It is guaranteed that the sum of n over all test cases does not exceed 2⋅105.
