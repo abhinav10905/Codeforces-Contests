@@ -1,0 +1,10 @@
+**QUESTION**
+B. Annoying the Ghost
+Ja the Ghost is playing with rubber ducks. He has n piles of rubber ducks arranged in a row, where the i-th pile contains ai ducks. Quack the Duck gives Ja a strictly increasing sequence b1,b2,…,bn and commands him to make the piles a1,a2,…,an become exactly this sequence.
+Ja performs the process in the following two stages:
+Ja may add any number of ducks to each pile.
+Formally, for each pile i, he chooses a non-negative integer xi and replaces ai with ai+xi.
+Ja may repeatedly swap two adjacent piles.
+Formally, he may perform the following operation any number of times, possibly zero: choose an index i such that 1≤i≤n−1, and swap the values of ai and ai+1.
+A process is called valid if, after both stages end, the sequence of pile sizes is exactly b1,b2,…,bn.
+Find the minimum possible number of operations performed in the second stage among all valid processes. If there is no valid process, output −1.
