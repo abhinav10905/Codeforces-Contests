@@ -1,0 +1,9 @@
+**QUESTION**
+C. Duck Surplus
+Ja the Ghost is playing with rubber ducks again! There are n piles of rubber ducks arranged in a row from left to right. Initially, the i-th pile contains ai rubber ducks.
+While the sequence a is not sorted in nondecreasing order, Ja must perform the following operation:
+Choose two adjacent piles such that the left pile contains more ducks than the right pile. Ja swaps these two piles, and then adds the number of ducks in the new left pile to the new right pile.
+Formally, choose an index i such that 1≤i<n and ai>ai+1. Then replace the adjacent pair (ai,ai+1) with (ai+1,ai+ai+1).
+For example, if two adjacent piles contain 7 and 3 rubber ducks, then after the operation they contain 3 and 10 rubber ducks.
+Ja may choose any index satisfying the condition above at each step. It can be shown that, regardless of his choices, the process eventually ends with the sequence sorted in nondecreasing order.
+Ja wants the largest pile at the end of the process to contain as few rubber ducks as possible. Determine the minimum possible value of the largest pile.
