@@ -13,3 +13,17 @@ The following line contains n integers a1,a2,…,an (1≤ai≤1000) — the heig
 
 **OUTPUT**
 For each test case, output a single integer — the minimum possible final sum of tower heights over all possible orders of operations.
+
+**CODE**
+for t in range (int(input())):
+    n=int(input())
+    a=list(map(int,input().split()))
+    sum=a[0]
+    min=a[0]
+    for i in range (1,n):
+        if a[i]<min:
+            min=a[i]
+            sum+=a[i]
+        else:
+            sum+=min
+    print(sum)
