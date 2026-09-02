@@ -1,0 +1,7 @@
+**QUESTION**
+A. Destroying Towers
+Quack the Duck has returned to his homeland and found n towers standing in a line. The height of the i-th tower is ai. He wants vengeance for the destruction of his ecosystem, and has vowed to wreak as much havoc as possible with his laser gun.
+Quack will operate on each tower exactly once, in any order he chooses. The operation on tower i is as follows:
+Quack climbs to the top of tower i and shoots a laser to the right, cutting the first taller tower it hits down to the same height as tower i.
+Formally, let j be the smallest index such that j>i and aj>ai, where ai and aj are the current heights of the towers. If such j exists, then aj is replaced with ai. Otherwise, nothing happens.
+Find the minimum possible final sum of tower heights over all possible orders of operations.
