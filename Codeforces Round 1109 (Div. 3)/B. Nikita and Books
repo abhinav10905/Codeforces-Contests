@@ -12,3 +12,7 @@ The first line contains a single integer t (1≤t≤104) — the number of test 
 The first line of each test case contains a single integer n (1≤n≤2⋅105) — the number of stacks.
 The second line of each test case contains n integers ai (1≤ai≤109) — the initial number of books in each stack.
 It is guaranteed that the sum of n over all test cases does not exceed 2⋅105.
+
+**OUTPUT**
+For each test case, output "YES" if Yura can make the arrangement neat, and "NO" otherwise.
+You may output each letter in any case (lowercase or uppercase). For example, the strings "yEs", "yes", "Yes", and "YES" will be accepted.
