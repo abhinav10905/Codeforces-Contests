@@ -14,3 +14,20 @@ The second line of each test case contains a string s of length n, consisting of
 
 **OUTPUT**
 For each test case, output a single integer — the maximum time required to erase a line.
+
+**CODE**
+for t in range (int(input())):
+    n=int(input())
+    s=input()
+    c=0
+    d=0
+    for i in s:
+        if i=="#":
+            c+=1
+            d=max(c,d)
+        else:
+            c=0
+    if d%2==0:
+        print(d//2)
+    else:
+        print(d//2+1)
