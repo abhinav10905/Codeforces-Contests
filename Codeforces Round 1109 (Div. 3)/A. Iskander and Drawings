@@ -31,3 +31,8 @@ for t in range (int(input())):
         print(d//2)
     else:
         print(d//2+1)
+
+**APPROACH**
+Time :- O(t*n)
+Space :- O(1) per test case
+Approach :- String, Math
