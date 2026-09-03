@@ -1,0 +1,8 @@
+**QUESTION**
+B. Nikita and Books
+As is well known, Nikita loves reading. Today, he made a mess in his room and arranged his books into n stacks in a row, numbered from 1 to n from left to right. The i-th stack contains ai books. This arrangement is called neat if, in every stack except the rightmost one, the number of books is strictly less than in the stack to its right; that is, the array a is strictly increasing.
+Yura wants to make the arrangement neat by performing the following operation any number of times:
+Choose a stack i such that 1≤i<n and ai>1.
+Take 1 book from the top of stack i, so ai decreases by 1.
+Put this book on top of stack i+1, so ai+1 increases by 1.
+Determine whether Yura can make the arrangement neat.
