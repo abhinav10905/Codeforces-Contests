@@ -11,3 +11,6 @@ Yura wants to choose a line so that, together with Iskander, they erase it for a
 The first line contains a single integer t (1≤t≤2500) — the number of test cases.
 The first line of each test case contains an integer n (1≤n≤10) — the length of the string s.
 The second line of each test case contains a string s of length n, consisting of characters '#' and '*'.
+
+**OUTPUT**
+For each test case, output a single integer — the maximum time required to erase a line.
