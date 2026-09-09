@@ -7,4 +7,4 @@ This repo uses **Python** for all solutions.
 
 **User Name:- abhinav10905**
 
-**Current Rating:- 988**
+**Current Rating:- 1062**
