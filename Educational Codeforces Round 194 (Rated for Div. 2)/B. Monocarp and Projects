@@ -11,3 +11,6 @@ The first line contains an integer t — the number of test cases (1≤t≤104).
 Each test case consists of one line containing three integers x, y, and k (1≤x≤y≤106; 1≤k≤1012).
 Additional constraint on the input:
 the sum of y over all test cases does not exceed 106.
+
+**OUTPUT**
+For each test case, output one integer — the total number of projects that Monocarp will complete himself over k months.
