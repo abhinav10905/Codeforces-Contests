@@ -1,0 +1,5 @@
+**QUESTION**
+A. Monocarp's Contest
+Monocarp is preparing a team programming contest. The contest has n problems, each of which is either easy or hard. The problems are numbered from 1 to n.
+Monocarp wants the first and the last problems of the contest to be easy. In one operation, he can choose any two problems and swap them.
+Determine the minimum number of operations required to make the first and the last problems easy, or report that it is impossible.
