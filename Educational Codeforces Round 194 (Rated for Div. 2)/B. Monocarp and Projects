@@ -28,3 +28,8 @@ for t in range (int(input())):
         i+=1
     c+=(y+i)%(x+i)*(k-i)
     print(c)
+
+**APPROACH**
+Time :- O(t*k)
+Space :- O(1) per test case
+Approach :- Math
