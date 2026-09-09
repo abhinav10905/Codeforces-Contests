@@ -15,17 +15,22 @@ For each test case, print the minimum number of operations required to make the 
 
 **CODE**
 for t in range (int(input())):
-    x,y,k=map(int,input().split())
+    n=int(input())
+    l=list(map(int,input().split()))
     c=0
-    i=0
-    while i<k:
-        if (y+i)//(x+i)==1:
-            break
-        else:
-            c+=(y+i)%(x+i)
-        i+=1
-    c+=(y+i)%(x+i)*(k-i)
-    print(c)
+    for i in l:
+        if i==0:
+            c+=1
+    if c<2:
+        print("-1")
+    elif l[0]==0 and l[-1]==0:
+        print("0")
+    elif l[0]==0:
+        print("1")
+    elif l[-1]==0:
+        print("1")
+    else:
+        print("2")
 
 **APPROACH**
 Time :- O(t*k)
