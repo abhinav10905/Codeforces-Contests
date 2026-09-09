@@ -5,3 +5,9 @@ In other words, in month i (0≤i<k), the company has x+i employees and needs to
 In each month, Monocarp distributes the projects among the employees. Each employee must receive the same number of projects, and each project can be assigned to at most one employee. Monocarp completes all unassigned projects himself. He always chooses a distribution that makes him complete as few projects as possible.
 In particular, if in some month there are a employees and b projects, then Monocarp assigns exactly ⌊ba⌋ projects to each employee, and he completes bmoda projects himself.
 Find the total number of projects that Monocarp will complete himself over the next k months.
+
+**INPUT**
+The first line contains an integer t — the number of test cases (1≤t≤104).
+Each test case consists of one line containing three integers x, y, and k (1≤x≤y≤106; 1≤k≤1012).
+Additional constraint on the input:
+the sum of y over all test cases does not exceed 106.
