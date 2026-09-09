@@ -14,3 +14,17 @@ the sum of y over all test cases does not exceed 106.
 
 **OUTPUT**
 For each test case, output one integer — the total number of projects that Monocarp will complete himself over k months.
+
+**CODE**
+for t in range (int(input())):
+    x,y,k=map(int,input().split())
+    c=0
+    i=0
+    while i<k:
+        if (y+i)//(x+i)==1:
+            break
+        else:
+            c+=(y+i)%(x+i)
+        i+=1
+    c+=(y+i)%(x+i)*(k-i)
+    print(c)
