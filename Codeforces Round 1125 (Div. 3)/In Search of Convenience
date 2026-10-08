@@ -17,3 +17,8 @@ If there are several suitable points, output any of them.
 for t in range (int(input())):
     x,y,r=map(int,input().split())
     print(x,y-r)
+
+**APPROACH**
+Time :- O(t)
+Space :- O(1)
+Approach :- Math
