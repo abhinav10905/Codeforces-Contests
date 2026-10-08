@@ -42,3 +42,8 @@ for t in range (int(input())):
             c+=1
         c+=d
     print(c)
+
+**APPROACH**
+Time :- O(t*n)
+Space :- O(n)
+Approach :- Hash Map, Array
