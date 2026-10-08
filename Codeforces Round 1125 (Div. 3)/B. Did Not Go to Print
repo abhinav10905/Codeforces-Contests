@@ -1,1 +1,7 @@
-
+**QUESTION**
+Recently, K1o0n bought himself a new expensive printer, which is distinguished by its memory, that is, it may not print immediately. Yesterday, while he was away from his new purchase, his friends used the printer.
+There are n documents numbered from 1 to n. Initially, the printer memory is empty. The friends sequentially performed n commands on the printer, where the i-th command can be one of:
+'1'  — scanning. Document i is sent to the device memory and is placed on top of everything already there.
+'2'  — printing from memory. If the memory is not empty, the device prints the topmost document in memory and removes it from there. Otherwise, the device prints document i.
+'3'  — quick print. The device prints document i.
+Today, the friends came to K1o0n with a complaint — not all documents were printed. Help K1o0n find the indices of all documents that were not printed.
