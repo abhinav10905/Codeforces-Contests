@@ -14,3 +14,31 @@ It is guaranteed that the sum of n over all testcases does not exceed 2⋅105.
 **OUTPUT**
 For each testcase, output one integer — the number of unordered pairs of disjoint triads with equal audience love values.
 Note that the answer may not fit into a 32-bit type. Use a 64-bit type (long long in C++, long in Java).
+
+**CODE**
+
+for t in range (int(input())):
+    n=int(input())
+    l=list(map(int,input().split()))
+    a=[]
+    for i in range (0,n-4):
+        z=l[i]+l[i+2]-l[i+4]
+        a.append(z)
+    hash={}
+    c=0
+    for i in range (0,n-4):
+        if (i-5)>=0:
+            y=a[i-5]
+            if y in hash:
+                hash[y]+=1
+            else:
+                hash[y]=1
+        d=0
+        if a[i] in hash:
+            d+=hash[a[i]]
+        if (i-1)>=0 and a[i-1]==a[i]:
+            c+=1
+        if (i-3)>=0 and a[i-3]==a[i]:
+            c+=1
+        c+=d
+    print(c)
