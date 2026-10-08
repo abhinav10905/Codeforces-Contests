@@ -12,3 +12,8 @@ The only line of each testcase contains three integers x0, y0, and R (−10≤x0
 **OUTPUT**
 For each testcase, output two integers x and y — the coordinates of the desk.
 If there are several suitable points, output any of them.
+
+**CODE**
+for t in range (int(input())):
+    x,y,r=map(int,input().split())
+    print(x,y-r)
