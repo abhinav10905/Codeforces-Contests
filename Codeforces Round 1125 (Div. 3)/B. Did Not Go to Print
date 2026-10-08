@@ -39,3 +39,8 @@ for t in range (int(input())):
     b.sort()
     print(a)
     print(*b)
+
+**APPROACH**
+Time :- O(t*n)
+Space :- O(n)
+Approach :- Stack, Array
