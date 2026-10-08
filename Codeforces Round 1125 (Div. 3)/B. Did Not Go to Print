@@ -16,3 +16,26 @@ It is guaranteed that the sum of n over all testcases does not exceed 2⋅105.
 For each testcase, output two lines.
 In the first line — the number k of documents that were not printed.
 In the second line — their numbers in increasing order, separated by spaces. If k=0, the second line is empty.
+
+**CODE**
+
+for t in range (int(input())):
+    n=int(input())
+    s=input()
+    stack=[]
+    a=0
+    b=[]
+    c=[]
+    for i in range (0,n):
+        if s[i]=="1":
+            stack.append(i+1)
+        elif s[i]=="2":
+            if stack!=[]:
+                a+=1
+                b.append(i+1)
+                c.append(stack.pop())
+    a+=len(stack)
+    b=b+stack
+    b.sort()
+    print(a)
+    print(*b)
