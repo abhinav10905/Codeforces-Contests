@@ -7,3 +7,6 @@ You may erase any numbers from the board, but at least one number must remain. F
 **INPUT**
 The first line contains an integer t (1≤t≤104) — the number of test cases.
 Each test case consists of one line containing two integers l and r (−100≤l≤r≤100).
+
+**OUTPUT**
+For each test case, print one integer — the minimum number of numbers that need to be erased from the board.
