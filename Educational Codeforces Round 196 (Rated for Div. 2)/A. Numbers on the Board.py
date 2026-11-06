@@ -10,3 +10,21 @@ Each test case consists of one line containing two integers l and r (−100≤l�
 
 **OUTPUT**
 For each test case, print one integer — the minimum number of numbers that need to be erased from the board.
+
+**CODE**
+for  t in range (int(input())):
+    l,r=map(int,input().split())
+    sum=0
+    c=0
+    for i in range (l,r+1):
+        sum+=i
+    while sum<l or sum>r:
+        if sum>r:
+            sum-=r
+            r-=1
+            c+=1
+        else:
+            sum-=l
+            l+=1
+            c+=1
+    print(c)
