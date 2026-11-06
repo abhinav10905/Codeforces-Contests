@@ -28,3 +28,8 @@ for  t in range (int(input())):
             l+=1
             c+=1
     print(c)
+
+**APPROACH**
+Time :- O(t*n)
+Space :- O(1) per test case
+Approach :- Math, Array
