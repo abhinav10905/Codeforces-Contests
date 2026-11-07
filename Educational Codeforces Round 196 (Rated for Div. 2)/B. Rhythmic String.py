@@ -30,3 +30,8 @@ for  t in range (int(input())):
                 d+=1
         c=min(c,d)
     print(c)
+
+**APPROACH**
+Time :- O(t*n(log(n)))
+Space :- O(1) per test case
+Approach :- Math, Array
