@@ -16,3 +16,17 @@ Additional constraints on the input:the sum of n over all test cases does not ex
 
 **OUTPUT**
 For each test case, output one integer — the minimum number of elements that need to be removed from the array so that string s is rhythmic.
+
+**CODE**
+for  t in range (int(input())):
+    n=int(input())
+    a=list(map(int,input().split()))
+    c=n
+    a.sort()
+    for i in range (0,n):
+        d=i
+        for j in range (i,n):
+            if a[j]%a[i]!=0:
+                d+=1
+        c=min(c,d)
+    print(c)
