@@ -13,3 +13,6 @@ The following descriptions of the test cases follow.
 The first line of each test case contains an integer n (1≤n≤5000) — the length of array a.
 The second line of each test case contains n integers a1,a2,…,an (1≤ai≤109) — the elements of the array.
 Additional constraints on the input:the sum of n over all test cases does not exceed 5000.
+
+**OUTPUT**
+For each test case, output one integer — the minimum number of elements that need to be removed from the array so that string s is rhythmic.
