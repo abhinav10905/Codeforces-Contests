@@ -25,3 +25,8 @@ for t in range (int(input())):
             b+=1
         i+=1
     print(a*b)
+
+**APPROACH**
+Time :- O(t*n)
+Space :- O(1)
+Approach :- Math
