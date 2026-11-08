@@ -9,3 +9,6 @@ Since Unemployed ∗ Angel is very smart, she can show that the value of interes
 Each test contains multiple test cases. The first line contains the number of test cases t (1≤t≤100). The description of the test cases follows.
 The first line of each test case contains one integer n (2≤n≤100) — the length of array a and the number of operations.
 The second line of each test case contains n integers a1,a2,…,an (0≤ai≤24) — the elements of array a.
+
+**OUTPUT**
+For each test case, output one integer — the maximum doubled area of triangle ABC.
