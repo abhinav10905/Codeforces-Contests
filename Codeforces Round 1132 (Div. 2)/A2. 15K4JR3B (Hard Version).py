@@ -29,3 +29,8 @@ for t in range (int(input())):
         else:
             b+=i
     print(b*c)
+
+**APPROACH**
+Time :- O(t*n(log(n)))
+Space :- O(1)
+Approach :- Math, Array, Sorting
