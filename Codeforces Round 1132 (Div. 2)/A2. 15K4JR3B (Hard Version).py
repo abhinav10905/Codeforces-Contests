@@ -12,3 +12,20 @@ The second line of each test case contains n integers a1,a2,…,an (0≤ai≤24)
 
 **OUTPUT**
 For each test case, output one integer — the maximum doubled area of triangle ABC.
+
+**CODE**
+for t in range (int(input())):
+    n=int(input())
+    a=list(map(int,input().split()))
+    a.sort()
+    for i in range (0,n):
+        a[i]=2**a[i]
+    a=a[::-1]
+    c=0
+    b=0
+    for i in a:
+        if b>c:
+            c+=i
+        else:
+            b+=i
+    print(b*c)
