@@ -8,3 +8,6 @@ Since Unemployed ∗ Angel is very smart, she can show that the value of interes
 **INPUT**
 Each test contains multiple test cases. The first line contains the number of test cases t (1≤t≤1000). The description of the test cases follows.
 The only line of each test case contains one integer n (2≤n≤1000) — the number of operations.
+
+**OUTPUT**
+For each test case, output one integer — the maximum doubled area of triangle ABC.
