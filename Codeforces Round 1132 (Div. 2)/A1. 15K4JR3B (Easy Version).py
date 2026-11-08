@@ -11,3 +11,17 @@ The only line of each test case contains one integer n (2≤n≤1000) — the nu
 
 **OUTPUT**
 For each test case, output one integer — the maximum doubled area of triangle ABC.
+
+**CODE**
+for t in range (int(input())):
+    n=int(input())
+    i=0
+    a=0
+    b=0
+    while i<n:
+        if i%2==0:
+            a+=1
+        else:
+            b+=1
+        i+=1
+    print(a*b)
